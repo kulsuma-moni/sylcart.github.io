@@ -5,17 +5,15 @@
 		jQuery(".loader_box").fadeOut(500);
 		});
 	// END PRELOADER JS CODE
-     // RESPONSIVE MAIN MENU JS
-		$('.main_menu').meanmenu();
 
-		   // START MENU JS CODE
-			$(window).on('scroll', function() {
-				if ($(this).scrollTop() > 100) {
-					$('.top_bar').addClass('menu-shrink animated slideInDown');
-				} else {
-					$('.top_bar').removeClass('menu-shrink animated slideInUp');
-				}
-			});
+	// START MENU JS CODE
+	$(window).on('scroll', function() {
+		if ($(this).scrollTop() > 100) {
+			$('.top_bar').addClass('menu-shrink animated slideInDown');
+		} else {
+			$('.top_bar').removeClass('menu-shrink animated slideInUp');
+		}
+	});
 
 	// data-background
 	$("[data-background]").each(function(){
