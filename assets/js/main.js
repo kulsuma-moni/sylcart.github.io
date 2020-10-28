@@ -326,4 +326,8 @@ $('.user_13').click(function(){
 		$('.form_coustomer_input').click(function(){
 			$('#vendore').hide();
 		});
+
+		$('#sort_btn').click(function(){
+			$('.sort_by_option').toggle();
+		});
 })(jQuery);

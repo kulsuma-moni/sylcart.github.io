@@ -224,6 +224,17 @@
   .slick-next {
     right: -15px;
   }
+  .single_shop_area .filter_area .filter_titel h4 {
+    width: 62%;
+    left: 14px;
+  }
+  .single_shop_area .filter_area .store_filter_box .box_ctn .brand_item .form-group label {
+    font-size: 13px;
+  }
+  .sort_by_ctn {
+    top: 8px;
+    left: -49px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -331,6 +342,9 @@
   }
   .offer_area .secondbanner {
     padding-left: 4px;
+  }
+  .sort_by_ctn {
+    top: 20px;
   }
 }
 

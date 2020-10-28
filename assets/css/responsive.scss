@@ -15,18 +15,7 @@
 	** - Default CSS
 	** - 
 */
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
-    // font-family: 'Open Sans', sans-serif;
-    // font-family: 'Lato', sans-serif;
-
-    // font-family: 'Poppins', sans-serif;
-    // font-family: 'Montserrat', sans-serif;
-
-
-$font-family-1 :'Open Sans', sans-serif;
-$font-family-2 :'Lato', sans-serif;
 $line_height_1:1.5;
 $basic_color:#ED1E3C;
 $basic_color_2:#2B6CB0;
@@ -246,6 +235,17 @@ $inputColor: #bbbbbb;
    .slick-next {
         right: -15px;
     }
+    .single_shop_area .filter_area .filter_titel h4 {
+        width: 62%;
+        left: 14px;
+    }
+    .single_shop_area .filter_area .store_filter_box .box_ctn .brand_item .form-group label {
+        font-size: 13px;
+    }
+    .sort_by_ctn {
+        top: 8px;
+        left: -49px;
+    }
 }
 @media (min-width: 576px) and(max-width:767px){
    .menu-shrink{
@@ -353,6 +353,9 @@ header.header_area{
 }
 .offer_area .secondbanner {
     padding-left: 4px;
+}
+.sort_by_ctn {
+    top: 20px;
 }
 }
 
